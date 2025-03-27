@@ -11,6 +11,7 @@ concurrency:
   cancel-in-progress: true
 
 jobs:
+
   build-native:
     uses: RubenTeixeira/gbp-gha/.github/workflows/gbp-native.yml@main
     with:
