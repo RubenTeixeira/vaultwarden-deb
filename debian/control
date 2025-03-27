@@ -11,8 +11,8 @@ Build-Depends: debhelper-compat (= 13),
                zlib1g-dev,
 Maintainer: dionysius <dragon.dionysius@gmail.com>
 Standards-Version: 4.6.1
-Vcs-Git: https://github.com/dionysius/vaultwarden-deb.git
-Vcs-Browser: https://github.com/dionysius/vaultwarden-deb
+Vcs-Git: https://github.com/RubenTeixeira/vaultwarden-deb.git
+Vcs-Browser: https://github.com/RubenTeixeira/vaultwarden-deb
 Homepage: https://github.com/dani-garcia/vaultwarden
 Rules-Requires-Root: no
 
