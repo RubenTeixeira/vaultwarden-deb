@@ -15,8 +15,8 @@ jobs:
     uses: RubenTeixeira/gbp-gha/.github/workflows/gbp-native.yml@main
     with:
       # https://github.com/orgs/community/discussions/26671
-      DEBFULLNAME: dionysius (github-actions)
-      DEBEMAIL: dragon.dionysius+gha@gmail.com
+      DEBFULLNAME: ruben (github-actions)
+      DEBEMAIL: ruben+gha@gmail.com
       before_build_deps_install: |
         source "$HOME/.cargo/env" || true
         if ! command -v rustup > /dev/null; then
