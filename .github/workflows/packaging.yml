@@ -13,7 +13,7 @@ concurrency:
 jobs:
 
   build-native:
-    uses: dionysius/gbp-gha/.github/workflows/gbp-native.yml@main
+    uses: RubenTeixeira/gbp-gha/.github/workflows/gbp-native.yml@main
     with:
       # https://github.com/orgs/community/discussions/26671
       DEBFULLNAME: dionysius (github-actions)
